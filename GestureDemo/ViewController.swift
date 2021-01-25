@@ -34,7 +34,6 @@ class ViewController: UIViewController {
         
         let swipeGesture = gesture as UISwipeGestureRecognizer
         
-        //Printing Gesture
         switch swipeGesture.direction {
         case UISwipeGestureRecognizer.Direction.left:
             print("Swipe Left is Recognized")
